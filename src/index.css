@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.viewContainer {
+  width: 60dvw;
+  min-height: 900px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  border: 1px solid blue;
+}
